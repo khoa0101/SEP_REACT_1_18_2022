@@ -23,7 +23,7 @@ form{
 
 .input-container{
   justify-self: center;
-  max-width: 50vw;
+  max-width: 40vw;
   display: grid; 
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2vh;
@@ -31,7 +31,7 @@ form{
 }
 
 input[type='text'], input[type='number'], input[type='password']{
-  height: 5vh;
+  height: 6vh;
   font-size: 1.3em;
   padding: 0 1vw; 
   border: solid 2px rgb(199, 199, 199);
