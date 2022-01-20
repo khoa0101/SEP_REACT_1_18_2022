@@ -12,7 +12,7 @@ section{
 h1{
   display: flex;
   justify-content: center;
-  font-size: 8vh;
+  font-size: 4em;
   padding: 2vh;
   margin-top: 10vh;
 }
@@ -32,7 +32,7 @@ form{
 
 input[type='text'], input[type='number'], input[type='password']{
   height: 5vh;
-  font-size: 1.2em;
+  font-size: 1.3em;
   padding: 0 1vw; 
   border: solid 2px rgb(199, 199, 199);
   border-radius: 5px;
@@ -100,7 +100,7 @@ input[type='button'], input[type='submit']{
   padding: 2vh;
   border: none;
   border-radius: 5px;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #register-button{
@@ -139,10 +139,6 @@ input[type='button'], input[type='submit']{
 
   input[type='text'], input[type='number'], input[type='password']{
     height: 10vh;
-    font-size: 1.2em;
-    padding: 0 1vw; 
-    border: solid 2px rgb(199, 199, 199);
-    border-radius: 5px;
   }
   
   /* p{
