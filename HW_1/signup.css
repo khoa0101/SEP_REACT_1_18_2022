@@ -14,7 +14,7 @@ h1{
   justify-content: center;
   font-size: 4em;
   padding: 2vh;
-  margin-top: 10vh;
+  margin-top: max(8vh, 2vh);
 }
 
 form{
@@ -64,12 +64,14 @@ input[type=number] {
   grid-column: span 2;
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .agreement-container span{
+  font-size: 1.1em;
   min-width: fit-content;
-  margin: 0 10px;
   display: inline-block;
+  margin-right: 10px;
   font-weight: bold;
 }
 
@@ -132,7 +134,7 @@ input[type='button'], input[type='submit']{
 
   .input-container{
     justify-self: center;
-    margin: 0 2vw;
+    margin: 0 2vw 2vh;
     max-width: 100vw;
     max-height: 100vh;
   }
