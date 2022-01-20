@@ -117,7 +117,7 @@ input[type='button'], input[type='submit']{
   background-color: lightseagreen;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
   section{
     display: block;
   }
@@ -136,6 +136,10 @@ input[type='button'], input[type='submit']{
     border: solid 2px rgb(199, 199, 199);
     border-radius: 5px;
   }
+  
+  /* p{
+    font-size: max(0.6em, 0.1em);
+  } */
 
 }
 
