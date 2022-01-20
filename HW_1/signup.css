@@ -66,6 +66,10 @@ input[type="checkbox"] {
   vertical-align: top;
 }
 
+input[type="checkbox"]:hover, input[type="checkbox"]:active {
+  cursor: pointer;
+}
+
 p i{
   color: white;
   font-size: 0.9em;
@@ -92,11 +96,7 @@ input[type='button'], input[type='submit']{
   background-color: var(--main-blue-color);
 }
 
-#register-button:active{
-  cursor: pointer;
-  background-color: lightskyblue;
-}
-
+#register-button:active, 
 #register-button:hover{
   cursor: pointer;
   background-color: lightskyblue;
@@ -107,14 +107,10 @@ input[type='button'], input[type='submit']{
   background-color: limegreen;
 }
 
-#sign-in-button:active{
-  cursor: pointer;
-  background-color: lightseagreen;
-}
-
+#sign-in-button:active,
 #sign-in-button:hover{
   cursor: pointer;
-  background-color: lightseagreen;
+  background-color: rgb(110, 255, 110);
 }
 
 @media screen and (max-width: 1000px){
