@@ -22,8 +22,7 @@ form{
 }
 
 .input-container{
-  justify-self: center;
-  max-width: 40vw;
+  max-width: fit-content;
   display: grid; 
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2vh;
@@ -78,6 +77,7 @@ input[type=number] {
 input[type="checkbox"] {
   display: inline-block;
   vertical-align: top;
+  font-size: 1.1em;
 }
 
 input[type="checkbox"]:hover, input[type="checkbox"]:active {
@@ -125,6 +125,10 @@ input[type='button'], input[type='submit']{
 #sign-in-button:hover{
   cursor: pointer;
   background-color: rgb(110, 255, 110);
+}
+
+#agreement-text{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px){
