@@ -133,7 +133,8 @@ input[type='button'], input[type='submit']{
 
 @media screen and (max-width: 1000px){
   section{
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   .input-container{
@@ -153,7 +154,7 @@ input[type='button'], input[type='submit']{
 
 }
 
-@media screen and (orientation: portrait) and (max-width: 500px){
+@media screen and (orientation: portrait) and (max-width: 600px){
   .input-container{
     display: flex;
     flex-direction: column;
