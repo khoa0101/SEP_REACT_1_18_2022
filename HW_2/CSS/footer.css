@@ -1,0 +1,14 @@
+@import '/H2/CSS/variables.css';
+
+.credits-container{
+  background-color: var(--nav-background-color);
+  padding: 0 5vw;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.link{
+  color: var(--highlight-font-color);
+  text-decoration: none;
+}

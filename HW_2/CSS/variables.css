@@ -1,8 +1,9 @@
 :root{
-  --main-background-color: #1B262C;
-  --main-font-color: #BBE1FA;
-  --nav-background-color: #0F4C75;
+  --main-background-color: #060e1f;
+  --main-font-color: #ffffff;
+  --nav-background-color: #061e36;
   --main-font-family: Garamond, serif;
+  --highlight-font-color: #c9aa71;
   --quote-font: 'Brush Script MT', cursive; 
   --button-color: #3282B8;
   --h1-font-size: 4rem;
