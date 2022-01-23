@@ -1,0 +1,14 @@
+@import '/HW_2/CSS/variables.css';
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--nav-background-color);
+  color: var(--main-font-color);
+}
+
+.nav-link{
+  text-decoration: none;
+  color: var(--main-font-color);
+}

@@ -1,8 +1,10 @@
 :root{
-  --main-background-color: black;
-  --main-font-color: white;
-  --nav-background-color: rgb(60, 60, 60);
-  --button-color: skyblue;
+  --main-background-color: #1B262C;
+  --main-font-color: #BBE1FA;
+  --nav-background-color: #0F4C75;
+  --main-font-family: Garamond, serif;
+  --quote-font: 'Brush Script MT', cursive; 
+  --button-color: #3282B8;
   --h1-font-size: 4rem;
   --h2-font-size: 3.5rem;
   --h3-font-size: 3rem;
