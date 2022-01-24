@@ -6,9 +6,10 @@
   --highlight-font-color: #c9aa71;
   --quote-font: 'Brush Script MT', cursive; 
   --button-color: #3282B8;
-  --h1-font-size: 4rem;
-  --h2-font-size: 3.5rem;
-  --h3-font-size: 3rem;
-  --h4-font-size: 2.5rem;
+  --active-color: gold;
+  --title-font-size: 4rem;
+  --section-font-size: 3.5rem;
+  --subsection-font-size: 3rem;
   --quote-size: 1.5rem;
+  --note-size: 0.5rem;
 }

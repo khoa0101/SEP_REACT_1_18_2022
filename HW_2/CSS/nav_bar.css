@@ -1,6 +1,8 @@
 @import '/HW_2/CSS/variables.css';
 
 .nav-bar{
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,6 +11,18 @@
 }
 
 .nav-link{
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--main-font-color);
+}
+
+.nav-link:hover{
+  cursor: pointer;
+  color: var(--active-color);
+}
+
+.nav-icon{
+  margin-right: 0.5rem;
+  width: 1.2rem;
 }
