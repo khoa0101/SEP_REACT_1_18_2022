@@ -104,8 +104,32 @@
   background-color: var(--active-color);
 }
 
+.about-author{
+  margin-top: 5vh;
+  padding: 0 1vw;
+  background-color: lightgray;
+  color: black;
+}
 
+.about-title{
+  font-size: var(--subsection-font-size);
+  font-family: var(--quote-font);
+  font-weight: bold;
+}
 
+.social{
+  width: 50%;
+  margin-top: 1vh;
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-around;
+}
 
+.social-button, .social-button:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
 
-
+.social-icon{
+  width: 2rem;
+}
