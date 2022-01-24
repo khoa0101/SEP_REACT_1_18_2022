@@ -4,11 +4,19 @@
 @import '/HW_2/assets/CSS/footer.css';
 
 .home-page-container{
-  display: grid;
-  grid-template-rows: 30% auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.home-page-container::-webkit-scrollbar {
+  display: none;
 }
 
 .title-container{
+  min-height: 30%;
   position: relative;
   overflow: hidden;
 }
@@ -34,15 +42,23 @@
 .blog-posts-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto) ;
+
 }
 
 .post-thumbnail-container{
   background-color: var(--nav-background-color);
   display: grid;
   grid-template-columns: 40% auto;
-  margin: 3vh 2vw;
-  padding: 2vh 2vw;
+  margin: 3vh 1vw;
+  padding: 2vh 1vw;
   border-radius: 20px;
+}
+
+.thumbnail-image{
+  width: 60%;
+  justify-self: center;
+  grid-row: 1/ span 3;
 }
 
 
@@ -59,6 +75,7 @@
 }
 
 .thumbnail-link{
+  align-self: end;
   text-decoration: none;
   color: var(--highlight-font-color);
 }

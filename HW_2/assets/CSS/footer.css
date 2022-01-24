@@ -1,6 +1,8 @@
 @import '/H2/CSS/variables.css';
 
 .credits-container{
+  position: sticky ;
+  height: 5vh;
   background-color: var(--nav-background-color);
   padding: 0 5vw;
   display: flex;

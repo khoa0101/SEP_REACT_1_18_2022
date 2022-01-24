@@ -4,7 +4,15 @@ body{
   background-color: var(--main-background-color);
   color: var(--main-font-color);
   font-family: var(--main-font-family);
-  min-height: 100vh;
   display: grid;
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

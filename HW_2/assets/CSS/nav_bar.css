@@ -1,13 +1,14 @@
 @import '/HW_2/CSS/variables.css';
 
 .nav-bar{
-  position: sticky;
-  top: 0;
+  position: relative;
+  height: 5vh ;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--nav-background-color);
   color: var(--main-font-color);
+  z-index: 10;
 }
 
 .nav-link{
