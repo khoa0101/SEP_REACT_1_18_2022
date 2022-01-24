@@ -16,3 +16,7 @@ body::-webkit-scrollbar {
 html {
   scroll-behavior: smooth;
 }
+
+.clearfix{
+  overflow: auto;
+}
