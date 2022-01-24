@@ -2,3 +2,110 @@
 @import '/HW_2/assets/CSS/basic_layout.css';
 @import '/HW_2/assets/CSS/nav_bar.css';
 @import '/HW_2/assets/CSS/footer.css';
+
+.article-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  line-height: 1.5;
+}
+
+.article-container::-webkit-scrollbar {
+  display: none;
+}
+
+.blog-header{
+  text-align: center;
+  margin: 1vh 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title{
+  font-size: var(--title-font-size);
+  color: var(--highlight-font-color);
+  margin-bottom: 1vh; 
+}
+
+.main-section{
+  margin: 1vh 0;
+}
+
+.section-title{
+  font-weight: bold;
+  font-size: var(--section-font-size);
+  color: var(--highlight-font-color);
+  margin: 1vh 0;
+}
+
+.quote{
+  font-family: var(--quote-font);
+  font-size: var(--quote-size);
+  color: var(--active-color);
+}
+
+.image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  width: 80%;
+}
+
+.image-caption{
+  text-align: center;
+  font-size: var(--note-size);
+}
+
+.sub-section{
+  margin: 1vh 0;
+}
+
+.sub-section-title{
+  font-size: var(--subsection-font-size);
+  color: var(--highlight-font-color);
+}
+
+.u-list{
+  list-style: inside;
+  margin: 2vh;
+}
+
+.article-nav-container{
+  display: flex;
+  height: 5vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh 0;
+}
+
+.nav-button{
+  min-width: 10rem;
+  text-align: center;
+  color: var(--main-font-color);
+  background-color: var(--button-color);
+  border: 2px solid var(--main-font-color);
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.nav-button:hover{
+  cursor: pointer;
+  color: var(--highlight-font-color);
+}
+
+.nav-button:active{
+  cursor: pointer;
+  color: var(--main-font-color);
+  background-color: var(--active-color);
+}
+
+
+
+
+
+

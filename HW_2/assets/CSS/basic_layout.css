@@ -1,11 +1,12 @@
 @import 'variables.css';
 
 body{
+  min-height: 100vh;
   background-color: var(--main-background-color);
   color: var(--main-font-color);
   font-family: var(--main-font-family);
   display: grid;
-  grid-template-rows: 5vh auto;
+  grid-template-rows: 5vh auto 5vh;
   overflow: auto;
 }
 
