@@ -109,6 +109,7 @@
   padding: 0 1vw;
   background-color: lightgray;
   color: black;
+  border: 1rem solid black;
 }
 
 .about-title{
@@ -119,7 +120,7 @@
 
 .social{
   width: 50%;
-  margin-top: 1vh;
+  margin: 1vh 0;
   margin-left: 50%;
   display: flex;
   justify-content: space-around;
